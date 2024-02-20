@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProjName": {
+    "perke": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ProjName:build:production"
+              "buildTarget": "perke:build:production"
             },
             "development": {
-              "buildTarget": "ProjName:build:development"
+              "buildTarget": "perke:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ProjName:build"
+            "buildTarget": "perke:build"
           }
         },
         "test": {
